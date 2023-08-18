@@ -178,7 +178,7 @@ function M.Visual()
 
     while findFlag ~= true do
         row = row+1
-        if row - 1 = totalNum then
+        if row - 1 == totalNum then
             print("not found")
             return
         end
